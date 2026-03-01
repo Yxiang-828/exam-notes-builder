@@ -1,0 +1,7 @@
+
+/input/*
+!/input/.gitkeep
+
+/staging/*
+!/staging/.gitkeep
+!/staging/Example_Demo/
