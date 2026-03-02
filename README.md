@@ -2,18 +2,20 @@
 
 **Anyone can make their own study-notes website with a single command: `execute.bat`.**
 
-Notes 2 Website is a standalone, portable CLI tool that converts entire folders of raw lecture PDFs or images into a highly-searchable, offline, beautifully formatted HTML website. Built for students who want a blazingly fast, searchable knowledge base without wrestling with complex setups. Especially suitable for open-book exams.
-
+Notes 2 Website is a standalone, portable CLI tool that utilises PyMuPDF & EasyOCR to automate conversion of entire folders of raw lecture PDFs or images into a consolidated, highly-searchable, offline, beautifully formatted HTML website. Built for students who want a blazingly fast, searchable knowledge base without wrestling with complex setups. Especially suitable for open-book exams.
 Limitations from existing solutions:
-- search function limited to individual chapters/pdf files ==> I batch search for you
-- readability is limited by clutter due to numerous pdfs/images courses ==> An offline website is much cooler for consolidation and visually wise
-- notes builder exist but are usually complicated to use and require a lot of setup ==> I make it simple and portable
+- search function limited to individual chapters/pdf files 
+==> I batch search for you
+- readability is limited by clutter due to numerous pdfs/images courses 
+==> An offline website is much cooler for consolidation and highly accessible
+- notes builder exist but are usually complicated to use and require a lot of setup 
+==> I make it simple and portable
 
 Requirement:
 - Terminal interface or IDE (preferred) e.g. vs code
 - Python 3.8 or higher
-- Windows 10 or higher
-- A good inline editor with LLM such as vscode with github copilot or Antigravity to format your notes (or you can do it yourself :p) 
+- Windows 10 or higher (this tool is mine and im a windows user)
+- A good inline editor with LLM such as vscode with github copilot or Antigravity to format your extracted texts (or you can do it yourself :p)
 - You need some notes lol
   
 Don't trust me? Want a demo?
